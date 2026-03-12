@@ -1,0 +1,100 @@
+Project Planning – Secure File Drop Web App
+Phase 1 – Research & Environment Setup (Week 1)
+
+Tasks:
+
+Install Python (if not already installed).
+
+Install Streamlit (pip install streamlit) and Cryptography library (pip install cryptography).
+
+Test Streamlit with a “Hello World” app to confirm environment works.
+
+Research AES encryption standards and file upload limits.
+
+Draft a basic design layout (upload button, download button, message box).
+
+Deliverable: A running “Hello World” web app in Streamlit + documented workflow for file handling.
+
+Phase 2 – Encryption & File Handling (Weeks 2–3)
+
+Tasks:
+
+Write a Python function to encrypt files using AES-256.
+
+Write a function to decrypt files.
+
+Implement temporary storage of encrypted files.
+
+Test with sample files (PDF, DOCX, TXT).
+
+Make sure decryption returns original file intact.
+
+Deliverable: Python scripts that can successfully encrypt and decrypt files on command.
+
+Phase 3 – One-Time Link System (Week 4)
+
+Tasks:
+
+Generate unique download links (random strings or UUIDs).
+
+Add logic to make each link usable only once.
+
+Implement file auto-delete after download or after set expiry time (e.g., 24 hours).
+
+Test links in multiple browsers and devices.
+
+Deliverable: Fully functional one-time link generator that ensures files cannot be reused or redownloaded.
+
+Phase 4 – User Interface Development (Weeks 5–6)
+
+Tasks:
+
+Build a Streamlit web interface with:
+
+File upload button.
+
+Download link generator.
+
+Status messages (e.g., “File uploaded & encrypted”, “Download ready”).
+
+Ensure interface is simple and clean for non-technical users.
+
+Optional: Add a password option for download links.
+
+Deliverable: A working Streamlit web interface for uploading and downloading files securely.
+
+Phase 5 – Testing & Security Review (Week 7)
+
+Tasks:
+
+Test uploads and downloads with different file types.
+
+Test link expiry and single-use restrictions.
+
+Perform basic security checks:
+
+Ensure no plaintext storage.
+
+Ensure expired links fail.
+
+Collect feedback from a small group of users (friends/classmates).
+
+Deliverable: Bug-free, secure prototype validated against test cases.
+
+Phase 6 – Deployment & Documentation (Week 8)
+
+Tasks:
+
+Push code to GitHub (for version control).
+
+Deploy web app on Streamlit Cloud (free hosting).
+
+Prepare project documentation:
+
+User manual (how to use the system).
+
+Technical report (methods, encryption details, and limitations).
+
+Demo app for department/staff/students.
+
+Deliverable: Online working system + final project documentation and presentation.
